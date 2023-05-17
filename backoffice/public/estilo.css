@@ -1,0 +1,148 @@
+body{
+    background-image: url("../public/istockphoto-1305905498-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pai_caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.caixa{
+    text-align: center; /* alinha o texto no centro da caixa */
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+}
+.caixa > h1{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+}
+.caixa > h3{
+    font-size: 19px;
+    text-transform: uppercase;
+    color:rgb(255, 81, 0);
+}
+.inputs_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+}
+.inputs_login > img{
+    width: 20px;
+    margin-right: 6px;
+}
+#erro{
+    color:red;
+    font-weight: bold;
+}
+.titulo_geral{
+    color:rgb(255, 81, 0);
+    text-align:center;
+}
+.links > nav{
+    text-align: center;
+}
+.links > nav > a{
+    background-color: rgb(255, 81, 0);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.links > nav > a:hover{
+    background-color: greenyellow;
+}
+.links a.active {
+    background-color: greenyellow;
+}
+.caixa_geral{
+    width: 80vw;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    margin:auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.caixa_geral > h3{
+    font-size: 24px;
+}
+.caixa_geral > h4{
+    font-size: 20px;
+}
+table{
+    margin: auto;
+    width: 85%;
+    cursor: pointer;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 3px dashed rgb(255, 81, 0);
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(220,220,220);
+}
+tr:nth-child(even){
+    background-color: white;
+}
+button[type="submit"], .inserir{
+    background-color: rgb(255, 81, 0);
+    border: 0;
+    border-radius: 5px;
+    padding:5px 10px;
+    color: white;
+    cursor: pointer;
+}
+button[type="submit"]:hover, .inserir:hover{
+    background-color: greenyellow;
+}
+.imagens{
+    width: 100%;
+}
+input[type="text"]{
+    width: 80%;
+}
+#botao_home{
+    background-color: rgb(220,220,220);
+    color: rgb(255, 81, 0);
+    cursor: pointer;
+}
+#botao_home:hover{
+    background-color: black;
+    color: white;
+}
+.ck-editor__editable{
+    color: black;
+}
+.botao_editar{
+    background-color: rgb(220,220,220);
+    color: rgb(255, 81, 0);
+    cursor: pointer;
+    border: 0;
+    padding: 5px 10px;
+}
+.botao_editar:hover{
+    background-color: black;
+    color: white;
+}
+.imagens_destaques{
+    height: 200px;
+}
+.atualizar_senha > input[type="text"]{
+    width: 25%;
+    text-align: center;
+}
+

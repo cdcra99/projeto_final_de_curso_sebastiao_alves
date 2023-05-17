@@ -1,0 +1,488 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-bottom: 4.38em;
+    overflow-x: hidden;
+}
+/* PAGINA HOME */
+/* HEADER */
+/* TITULO PRINCIPAL */
+#titulo_principal{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: rgb(77,77,77);
+}
+@media all and (min-width:400px){
+    #titulo_principal{
+        font-size: 1.5em;
+    }
+}
+@media all and (min-width:500px){
+    #titulo_principal{
+        font-size: 1.7em;
+    }
+}
+@media all and (min-width:600px){
+    #titulo_principal{
+        font-size: 2em;
+    }
+}
+/* NAVBAR */
+.nav-pai{
+    padding-inline: 10% !important;
+}
+.dropdown-menu{
+    position: static !important;
+    transform: none !important;
+    border-radius: 0;
+    box-shadow: 0em 0em 0.625em 0.1em rgba(0, 0, 0, 0.15);
+}
+.dropdown-item{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: rgb(77,77,77);
+    margin-top: 0.313em;
+}
+.dropdown-item:hover{
+    color: rgb(180, 125, 51);
+    background: transparent !important;
+}
+.linha_separadora{
+    border: 0.063em solid rgb(112,112,112);
+    width: 100%;
+}
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: rgb(77,77,77);
+}
+.nav-link:hover{
+    color: rgb(180, 125, 51);
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}
+.nav-link.active{
+    color: rgb(180, 125, 51) !important;
+}
+/* CARROSSEL */
+.carousel{
+    height: 47.2em !important;
+    background-color: rgb(221, 221, 221);
+}
+.carousel-item > img{
+    height: 47.2em !important;
+    width: 100% !important;
+}
+.carousel-caption > h6{
+    color: rgb(180, 125, 51);
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+}
+.carousel-caption > h5{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: rgb(77,77,77);
+}
+.carousel-caption > p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: rgb(77,77,77);
+}
+.carousel-caption > a > .btn{
+    background-color: rgb(180, 125, 51);
+    border-radius: 0;
+    color: white;
+    height: 1.625rem;
+    width: 6.313rem;
+    font-size: 0.69em;
+    text-transform: uppercase;
+}
+.carousel-caption > a > .btn:hover{
+    background-color: rgb(77,77,77); 
+}
+.carousel-indicators > button{
+    width: 1.063em !important;
+    height: 1.063em !important;
+    border-radius: 50%;
+    background-color: transparent !important;
+    border: 0.063em solid gray !important;
+    margin-right: 0.938em !important;
+}
+.carousel-indicators > button.active{
+    background-color:rgb(77,77,77) !important;
+}
+/* CAIXA HOME */
+#caixa{
+    background-color: white;
+    box-shadow: 0em 0.5em 0.625em rgba(0, 0, 0, 0.15);
+}
+.descricao_home{
+    width: 85% !important;
+}
+.fotos_home{
+    box-shadow: 0.5em 0.5em 0.625em rgba(0, 0, 0, 0.15);
+    width: 17.875em;
+}
+.titulo_home{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.35em;
+    text-transform: uppercase;
+    color: rgb(77,77,77);
+    word-wrap: break-word;
+    text-align: start;
+}
+.paragrafo_home{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: rgb(77,77,77);
+}
+.btn-saber_mais{
+    background-color: rgb(180, 125, 51);
+    border-radius: 0;
+    color: white;
+    height: 1.75rem;
+    width: 6.313rem;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0;
+}
+.btn-saber_mais:hover{
+    background-color: rgb(77,77,77)
+}
+/* CARD */
+.card{
+    box-shadow: 0.5em 0.5em 0.625em rgba(0, 0, 0, 0.15);
+    padding-inline: 0;
+}
+.card-title{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: rgb(77,77,77);
+}
+.card-categoria{
+    color: rgb(180, 125, 51);
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+}
+.card-text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.75em;
+    color: rgb(77,77,77);
+}
+.card-body > a > .btn{
+    background-color: rgb(180, 125, 51);
+    border-radius: 0;
+    color: white;
+    height:1.625rem;
+    width: 6.313rem;
+    font-size: 0.69em;
+    text-transform: uppercase;
+}
+.card-body > a > .btn:hover{
+    background-color: rgb(77,77,77); 
+}
+/* FOOTER */
+.linha_footer{
+    border: 1px solid rgb(112, 112, 122);
+    margin: 0  3.75em !important;
+}
+.rodape{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color:rgb(77, 77, 77);
+}
+.t_campo, .t_campo > h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.938rem;
+    color: rgb(177, 126, 59);
+    text-transform: uppercase;
+}
+.t_campo_descricao, .t_campo_descricao > p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.938rem;
+    color:rgb(77, 77, 77);
+}
+
+/* PAGINA AUTOR */
+.caixa_titulos{
+    background-color: white;
+    box-shadow: 0em 0.5em 0.625em rgba(0, 0, 0, 0.15);
+}
+.caixa_titulos > h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.125rem;
+    color: rgb(177, 126, 59);
+    text-transform: uppercase;
+}
+.caixa_titulos > h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.438rem;
+    text-transform: uppercase;
+    color:rgb(77, 77, 77);
+}
+#img_autor{
+    width: 20em;
+}
+#texto_abreviado{
+    display:block;
+}
+.btn-ver_mais, .btn-voltar_atras{
+    width: 7.5em;
+    height: 2.188em;
+    background-color: rgb(177, 126, 59);
+    border-radius: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    border: 0;
+}
+.btn-ver_mais:hover, .btn-voltar_atras:hover{
+    background-color:rgb(77, 77, 77);
+}
+.btn-voltar_atras{
+    width: 10em;
+}
+/* IMPRENSA */
+.imprensa_box_shadow{
+    box-shadow: 0em 0.5em 0.625em rgba(0, 0, 0, 0.15);
+}
+.titulo_imprensa{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: rgb(77, 77, 77);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+}
+#linha_separadora_imprensa{
+    border: 0.063em solid rgb(169, 115, 57);
+}
+.data_publicacao{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.813rem;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+    text-align: right;
+}
+.img_imprensa{
+    width: 18em;
+    margin-top: -1.25em;
+}
+#paragrafo_imprensa{
+    font-size: 0.8rem;
+} 
+.paginacao > form > button{
+    border: 0;
+    background-color: transparent;
+    font-size: 1.375em;
+    margin-left: 26px;
+    color: rgb(77, 77, 77);
+}
+.paginacao > form > button:hover{
+    color: rgb(180, 125, 51);
+}
+
+.not_found{
+    font-size: 60px;
+}
+.btn-not_found{
+    background-color: rgb(180, 125, 51);
+    border: 0;
+    padding:8px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* MEDIA QUERY PARA 768px */
+@media all and (min-width:768px){
+    #titulo_principal{
+        font-size: 2.1875rem;
+    }    
+    
+    /* NAVBAR */
+    .nav-link{
+        font-size: 1.125rem;
+        margin-right: 0.938em !important;
+    }
+    .dropdown-menu{
+        box-shadow: 0em 0.625em 0.625em rgba(0, 0, 0, 0.15);
+        border: 0.063em solid white;
+        position: absolute !important;
+    }
+    .dropdown-item{
+        font-size: 0.81rem;
+        background-color: transparent !important;
+    }
+    
+    /* CARROSSEL */
+    .carousel-item > img{
+        height: 47.2em !important;
+        max-width: unset !important;
+    }
+    .carousel-caption{
+        position: absolute;
+        bottom: 15%;
+        text-align: start;
+    } 
+    .carousel-caption > h5{
+        width: 50% !important;
+    }
+    .carousel-caption > p{
+        font-size: 0.8rem;
+        width: 56% !important;
+    }
+    
+    /* CAIXA */
+    #caixa{
+        position: relative;
+        bottom: 6em;
+        display: flex;
+        flex-direction: row;
+        height: 33.625em;
+        box-shadow: -0.5em 0.5em 0.625em rgba(0, 0, 0, 0.15);
+    }
+    .img_caixa{
+        padding: 2.5em 0.625em 3.75em 4.375em;
+    }
+    #caixa > .descricao_home{
+        width: 60% !important;
+    }
+    #caixa > .descricao_home > .titulo_home{
+        padding-right: 1.875em;
+    }
+    #caixa > .descricao_home > .paragrafo_home{
+        display: -webkit-box;
+        -webkit-line-clamp: (12);
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        white-space: normal;
+        height: 17rem !important;
+        padding-right: 1.875em;
+    }
+    /* ULTIMOS LIVROS */
+    #descricao_home_desk{
+        margin-top: -0.625em !important;
+    }
+    /* FOOTER */
+    .rodape > h3{
+        font-size: 1rem;
+    }
+    .t_campo > h4{
+        font-size: 0.8rem;
+    }
+    .t_campo > p{
+        font-size: 0.8rem;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 300;
+        color:rgb(77, 77, 77);
+        text-transform: none;
+    }
+    #cookies{ 
+        font-size: 0.8rem;    
+    }
+
+    /* AUTOR */
+    .caixa_titulos{
+        position: relative;
+        bottom: 2.8em;
+    }
+    #img_autor{
+        margin-top: -3em;
+    }
+    #descricao_autor{
+        margin-top: -3em;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 300;
+        font-size: 0.8rem;
+        color:rgb(77, 77, 77);
+    }
+    #texto_completo{
+        display: none;
+    }
+
+    /* LIVROS */
+    #img_livros{
+        height: 29.438em;
+    }
+    #descricao_livros{
+        display: -webkit-box;
+        -webkit-line-clamp: (12);
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        white-space: normal;
+        height: 25rem !important;
+    }
+
+    /* IMPRENSA */
+    .titulo_caixa_imprensa{
+        width: 33em !important;
+    }
+    .img_imprensa{
+        width: 33em !important;
+        margin-right: 3.75em;
+    }
+    .titulo_imprensa{
+        font-size: 1.2rem;
+    }
+    #seta_esquerda{
+        margin-right: calc(60px - 17px);
+    }
+    #seta_direita{
+        margin-left: 60px;
+    }
+    .paginacao > form > .num_imprensa{
+        margin-left: 1.063em;
+    }
+    
+
+    @media all and (min-width:992px){
+        .titulo_caixa_imprensa{
+            width: 48em !important;
+        }
+        .img_imprensa{
+            width: 48em !important;
+        }    
+        .titulo_imprensa{
+            font-size: 1.2rem;
+        }
+    }
+
+    /* CONTACTOS */
+    .linha_contactos{
+        margin-inline: 30px;
+    }
+}
+
+
+
+
+
